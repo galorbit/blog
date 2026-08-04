@@ -86,7 +86,7 @@ export const booknavConfig: BooknavGroup[] = [
 	{
 		id: "design",
 		name: "设计",
-		icon: "material-symbols:palette-outline-rounded",
+		icon: "material-symbols:palette-outline",
 		desc: "配色、图标与灵感来源",
 		weight: 90,
 		items: [

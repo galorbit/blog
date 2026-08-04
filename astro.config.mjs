@@ -338,6 +338,10 @@ export default defineConfig({
 				ignored: ["**/package/**", "**/Firefly-docs/**"],
 			},
 		},
+		preview: {
+			// 允许通过反向代理域名访问 preview 服务(本地测试用)
+			allowedHosts: ["test.byt3.ro", ".byt3.ro"],
+		},
 		resolve: {
 			alias: {
 				"@rehype-callouts-theme": `rehype-callouts/theme/${siteConfig.post.rehypeCallouts.theme}`,
