@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "肥宅看穿了一切",
 
 	// 站点 URL
-	site_url: "https://blog-overlazy.vercel.app",
+	site_url: "https://blog.byt3.ro",
 
 	// 站点描述
 	description:
