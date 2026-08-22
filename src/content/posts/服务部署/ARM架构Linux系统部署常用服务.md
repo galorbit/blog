@@ -1,5 +1,6 @@
 ---
 title: ARM架构Linux系统部署常用服务
+image: "api"
 published: 2026-08-22
 description: 在ARM架构Linux上源码编译部署nginx、mysql、docker等常用服务,创建systemd服务实现开机自启。
 category: 服务部署

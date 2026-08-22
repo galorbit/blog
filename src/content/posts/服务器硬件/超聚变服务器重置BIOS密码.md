@@ -1,5 +1,6 @@
 ---
 title: 超聚变服务器重置BIOS密码
+image: "api"
 published: 2026-08-22
 description: 超聚变服务器重置BIOS密码,通过IBMC关闭弱口令策略、重设管理员密码并升级BIOS固件完成。
 category: 服务器硬件

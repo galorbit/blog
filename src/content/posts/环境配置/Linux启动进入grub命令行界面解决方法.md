@@ -1,5 +1,6 @@
 ---
 title: Linux启动进入grub命令行界面解决方法
+image: "api"
 published: 2026-08-22
 description: 修复卡在grub rescue无法启动的系统:手动引导内核、chroot重装GRUB、修复UEFI启动项。
 category: 环境配置

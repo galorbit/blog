@@ -1,5 +1,6 @@
 ---
 title: 威联通部署lucky并设置反向代理
+image: "api"
 published: 2026-08-22
 description: 在威联通部署lucky容器作为反向代理并配置DDNS动态域名,推荐部署到虚拟机以保证代理稳定可用。
 category: NAS配置

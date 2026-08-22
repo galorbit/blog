@@ -1,5 +1,6 @@
 ---
 title: 浪潮服务器BMC修改电源数量
+image: "api"
 published: 2026-08-22
 description: 浪潮服务器只装一个电源时BMC报错,通过InspurDiagLogCollect工具执行raw命令修改电源数量配置消除告警。
 category: 服务器硬件

@@ -1,5 +1,6 @@
 ---
 title: 服务器添加独显后VGA无法启动桌面解决方案
+image: "api"
 published: 2026-08-22
 description: 服务器加装独显后VGA无法启动桌面,通过xorg.conf.d配置ASPEED集显使用modesetting驱动。
 category: 环境配置

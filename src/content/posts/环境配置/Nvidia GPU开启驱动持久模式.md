@@ -1,5 +1,6 @@
 ---
 title: Nvidia GPU开启驱动持久模式
+image: "api"
 published: 2026-08-22
 description: 开启NVIDIA驱动持久模式防止GPU掉卡,可用nvidia-smi临时开启或配置服务实现开机常驻。
 category: 环境配置

@@ -1,5 +1,6 @@
 ---
 title: systemd配置系统服务
+image: "api"
 published: 2026-08-22
 description: 手把手配置systemd系统服务,详解[Unit][Service][Install]各参数含义,并附上openGauss服务示例。
 category: 环境配置

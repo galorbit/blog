@@ -1,5 +1,6 @@
 ---
 title: Linux离线部署ollama
+image: "api"
 published: 2026-08-22
 description: Linux离线部署ollama,解压安装包创建用户并配置systemd服务,通过环境变量控制多卡并行与模型驻留。
 category: 大模型

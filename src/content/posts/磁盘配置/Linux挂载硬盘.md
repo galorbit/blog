@@ -1,5 +1,6 @@
 ---
 title: Linux挂载硬盘
+image: "api"
 published: 2026-08-22
 description: Linux挂载新硬盘全流程:parted分区、格式化、临时挂载,再用UUID写入fstab开机自动挂载。
 category: 磁盘配置

@@ -1,5 +1,6 @@
 ---
 title: Ubuntu 22.04桌面版设置网卡动态聚合
+image: "api"
 published: 2026-08-22
 description: Ubuntu 22.04桌面版禁用NetworkManager改用systemd-networkd,用netplan配置多网卡bond动态聚合的网络连接。
 category: 环境配置

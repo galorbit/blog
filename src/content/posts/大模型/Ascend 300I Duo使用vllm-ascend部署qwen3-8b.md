@@ -1,5 +1,6 @@
 ---
 title: Ascend 300I Duo使用vllm-ascend部署qwen3-8b
+image: "api"
 published: 2026-08-22
 description: 在Ascend 300I Duo推理卡上使用vllm-ascend容器部署qwen3-8b,直通davinci设备共享显存启动推理服务。
 category: 大模型

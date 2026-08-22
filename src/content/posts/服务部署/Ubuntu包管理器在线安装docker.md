@@ -1,5 +1,6 @@
 ---
 title: Ubuntu包管理器在线安装docker
+image: "api"
 published: 2026-08-22
 description: Ubuntu系统通过apt在线安装docker,添加GPG密钥与docker-ce软件源,安装docker-ce及compose插件。
 category: 服务部署

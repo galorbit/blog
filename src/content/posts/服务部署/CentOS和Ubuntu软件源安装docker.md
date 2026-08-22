@@ -1,5 +1,6 @@
 ---
 title: CentOS和Ubuntu软件源安装docker
+image: "api"
 published: 2026-08-22
 description: CentOS与Ubuntu通过官方软件源安装docker,配置yum或apt仓库,安装docker-ce及compose插件并支持指定版本。
 category: 服务部署

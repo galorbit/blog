@@ -38,5 +38,14 @@ Do not commit secrets, tokens, or service keys in config files. Keep deployment-
 - 远程: `github` = SSH, `origin` = Gitea https+token
 - 笔记仓库(`greetingsyi/markdown-notes`)只推 Gitea(私有),不上 GitHub
 - **博客仓库(公开)推送仅当用户明确说"推送博客"时才执行**: `git push github main && git -c http.sslVerify=false push origin main`
-- 构建: 博客目录 `rm -rf node_modules/.astro .astro dist && pnpm build`
-- 新增成品从笔记流水线 `03-final/` 复制到 `src/content/posts/`
+- 构建: 博客目录 `rm -rf node_modules/.astro .astro dist && pnpm build`(pnpm 11 需 `CI=true pnpm build`)
+- 内容源: 笔记流水线 `02-final/`(Gitea markdown-notes 仓库本地克隆 `/opt/Project/notes-pipeline/repo/`)
+
+## 笔记上传(用户说"推送笔记到博客"时)
+
+1. `cd /opt/Project/notes-pipeline/repo && git pull origin main` 拉最新
+2. 检查 `02-final/` 的 frontmatter(必须有 `title/category/tags/published`;`slug`/`description` 可选但建议有)
+   - 用 python 批量校验+采样;若有 `date:` 需转成 `published:`(博客 schema 只认 published)
+3. `rm -rf src/content/posts/* && cp -r /opt/Project/notes-pipeline/repo/02-final/* src/content/posts/`(分类子目录照搬)
+4. 构建验证: `CI=true pnpm build`,确认 `dist/posts/` 下文章数与 02-final 一致,URL 为英文 slug(`/posts/<slug>/`)
+5. 提交 + 推送双远程(命令见上),Vercel 自动部署

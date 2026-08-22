@@ -1,5 +1,6 @@
 ---
 title: Windows使用RDP连接报错身份验证错误
+image: "api"
 published: 2026-08-22
 description: 解决新版Windows用RDP连接旧版Server报身份验证错误,组策略中把加密数据库修正设为易受攻击。
 category: 环境配置

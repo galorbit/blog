@@ -1,5 +1,6 @@
 ---
 title: Arm架构服务器NvidiaGPU使用vllm本地部署大模型
+image: "api"
 published: 2026-08-22
 description: 在ARM64架构服务器上配合Nvidia GPU使用vllm本地部署大模型,涵盖依赖安装、Conda环境与PyTorch预编译包。
 category: 大模型

@@ -1,5 +1,6 @@
 ---
 title: PMC芯片存储控制器管理命令（arcconf）
+image: "api"
 published: 2026-08-22
 description: 汇总PMC存储控制器工具arcconf的常用命令,涵盖RAID创建删除、固件更新与SMART查询。
 category: 磁盘配置

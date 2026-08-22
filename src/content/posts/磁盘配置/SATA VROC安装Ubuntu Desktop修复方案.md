@@ -1,5 +1,6 @@
 ---
 title: SATA VROC安装Ubuntu Desktop修复方案
+image: "api"
 published: 2026-08-22
 description: 修复Intel SATA VROC的RAID5磁盘安装Ubuntu桌面版后重启进入BusyBox的问题,在initramfs中集成dmraid与kpartx激活RAID卷。
 category: 磁盘配置

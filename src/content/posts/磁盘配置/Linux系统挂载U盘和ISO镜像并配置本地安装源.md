@@ -1,5 +1,6 @@
 ---
 title: Linux系统挂载U盘和ISO镜像并配置本地安装源
+image: "api"
 published: 2026-08-22
 description: 在Linux上挂载U盘和ISO镜像,配置本地yum或apt源,实现在无网络环境下安装软件包。
 category: 磁盘配置

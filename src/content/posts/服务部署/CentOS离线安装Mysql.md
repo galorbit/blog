@@ -1,5 +1,6 @@
 ---
 title: CentOS离线安装Mysql
+image: "api"
 published: 2026-08-22
 description: CentOS离线安装MySQL 8.0,先卸载冲突的mariadb,再按顺序rpm安装bundle包并完成初始化。
 category: 服务部署

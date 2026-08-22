@@ -1,5 +1,6 @@
 ---
 title: Linux使用gpu-burn-master压力测试
+image: "api"
 published: 2026-08-22
 description: 用gpu-burn对GPU做压力测试,通过Gflop/s、错误数和温度判断显卡是否故障,支持双精度与多卡测试。
 category: 环境配置

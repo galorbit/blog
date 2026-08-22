@@ -1,5 +1,6 @@
 ---
 title: QNAP安装与配置Entware指南
+image: "api"
 published: 2026-08-22
 description: 在QNAP NAS上安装Entware获得类Linux软件环境,配置opkg源并安装zsh与oh-my-zsh,重启后配置依然生效。
 category: NAS配置

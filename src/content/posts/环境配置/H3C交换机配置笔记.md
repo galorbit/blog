@@ -1,5 +1,6 @@
 ---
 title: H3C交换机配置笔记
+image: "api"
 published: 2026-08-22
 description: H3C Comware 7交换机配置全记录,含网络拓扑与VLAN规划、核心与POE交换机配置详解、常用命令速查与MAC定位实战。
 category: 环境配置

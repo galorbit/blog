@@ -1,5 +1,6 @@
 ---
 title: vllm请求速度和稳定性测试
+image: "api"
 published: 2026-08-22
 description: 使用evalscope perf对vllm推理服务做并发请求与单请求速度测试,评估服务吞吐与稳定性。
 category: 大模型

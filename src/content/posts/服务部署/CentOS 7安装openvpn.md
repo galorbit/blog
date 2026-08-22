@@ -1,5 +1,6 @@
 ---
 title: CentOS 7安装openvpn
+image: "api"
 published: 2026-08-22
 description: CentOS 7安装配置OpenVPN,关闭SELinux、开启内核转发,用easy-rsa构建PKI生成证书并配置防火墙。
 category: 服务部署

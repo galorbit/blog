@@ -1,5 +1,6 @@
 ---
 title: CentOS 6编译e1000e驱动报错解决方法
+image: "api"
 published: 2026-08-22
 description: 解决CentOS 6编译e1000e网卡驱动的'dev' undeclared报错,通过降级驱动版本、修改源码与安装内核开发包。
 category: 环境配置

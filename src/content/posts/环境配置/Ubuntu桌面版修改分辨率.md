@@ -1,5 +1,6 @@
 ---
 title: Ubuntu桌面版修改分辨率
+image: "api"
 published: 2026-08-22
 description: 用xrandr新增显示模式修改Ubuntu桌面版分辨率,写入.profile让重启后仍然生效。
 category: 环境配置

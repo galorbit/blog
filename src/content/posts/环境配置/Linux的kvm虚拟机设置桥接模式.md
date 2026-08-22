@@ -1,5 +1,6 @@
 ---
 title: Linux的kvm虚拟机设置桥接模式
+image: "api"
 published: 2026-08-22
 description: 在Linux宿主机上创建br0、br1网桥绑定物理网卡,让KVM虚拟机通过桥接模式接入局域网。
 category: 环境配置

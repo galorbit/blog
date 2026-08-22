@@ -1,5 +1,6 @@
 ---
 title: Linux修改主机名
+image: "api"
 published: 2026-08-22
 description: 用hostnamectl永久或临时修改Linux主机名,并解决修改后sudo报unable to resolve host的报错问题。
 category: 环境配置

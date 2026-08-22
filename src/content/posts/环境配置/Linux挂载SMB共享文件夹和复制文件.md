@@ -1,5 +1,6 @@
 ---
 title: Linux挂载SMB共享文件夹和复制文件
+image: "api"
 published: 2026-08-22
 description: 用cifs-utils挂载Windows或Linux的SMB共享文件夹,再用rsync把模型等大文件复制到本地。
 category: 环境配置

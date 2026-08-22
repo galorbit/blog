@@ -1,5 +1,6 @@
 ---
 title: 使用vllm部署DeepSeek
+image: "api"
 published: 2026-08-22
 description: 使用vllm在Nvidia GPU上容器化部署DeepSeek,详解nvidia运行时切换、镜像拉取与tensor parallel等启动参数。
 category: 大模型

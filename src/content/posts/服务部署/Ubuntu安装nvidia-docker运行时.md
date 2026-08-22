@@ -1,5 +1,6 @@
 ---
 title: Ubuntu安装nvidia-docker运行时
+image: "api"
 published: 2026-08-22
 description: Ubuntu安装nvidia-docker运行时,使用中科大镜像安装nvidia-container-toolkit,使容器支持GPU调用。
 category: 服务部署

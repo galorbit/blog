@@ -1,5 +1,6 @@
 ---
 title: 修改docker默认存储目录
+image: "api"
 published: 2026-08-22
 description: docker默认目录空间不足时,迁移数据并在daemon.json中设置data-root更换存储位置。
 category: 环境配置

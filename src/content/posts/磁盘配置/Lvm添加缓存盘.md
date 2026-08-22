@@ -1,5 +1,6 @@
 ---
 title: Lvm添加缓存盘
+image: "api"
 published: 2026-08-22
 description: 用LVM给机械盘添加NVMe缓存盘,创建cache-pool并设置writeback模式加速逻辑卷读写。
 category: 磁盘配置

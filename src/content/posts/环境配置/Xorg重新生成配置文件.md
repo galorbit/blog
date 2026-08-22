@@ -1,5 +1,6 @@
 ---
 title: Xorg重新生成配置文件
+image: "api"
 published: 2026-08-22
 description: 用Xorg -configure重新生成xorg.conf文件,调整glx与modesetting驱动配置,解决X服务无法启动的问题。
 category: 环境配置

@@ -1,5 +1,6 @@
 ---
 title: Linux搭建DHCP-Server
+image: "api"
 published: 2026-08-22
 description: 在Rocky Linux上搭建DHCP服务器,编辑dhcpd.conf配置地址池、网关与DNS,设置开机自启。
 category: 服务部署

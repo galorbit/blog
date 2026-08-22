@@ -1,5 +1,6 @@
 ---
 title: Ubuntu花屏解决方案
+image: "api"
 published: 2026-08-22
 description: 解决Ubuntu桌面版安装、进入系统和登录界面花屏,靠grub加nomodeset参数并禁用Wayland。
 category: 环境配置

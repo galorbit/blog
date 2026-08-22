@@ -1,5 +1,6 @@
 ---
 title: CentOS安装JDK
+image: "api"
 published: 2026-08-22
 description: CentOS安装JDK,梳理Oracle JDK各版本商用收费规则,选用免费版8u202解压安装并配置环境变量。
 category: 服务部署

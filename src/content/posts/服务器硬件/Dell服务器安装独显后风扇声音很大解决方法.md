@@ -1,5 +1,6 @@
 ---
 title: Dell服务器安装独显后风扇声音很大解决方法
+image: "api"
 published: 2026-08-22
 description: Dell服务器安装非认证PCIe卡后风扇满载噪音大,通过iDRAC的racadm命令将槽位LFM冷却模式设为禁用降噪。
 category: 服务器硬件

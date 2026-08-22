@@ -1,5 +1,6 @@
 ---
 title: Ubuntu禁用挂起和休眠
+image: "api"
 published: 2026-08-22
 description: 修改/etc/systemd/sleep.conf配置文件,禁用Ubuntu的挂起、休眠和混合睡眠等电源状态。
 category: 环境配置

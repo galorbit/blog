@@ -1,5 +1,6 @@
 ---
 title: linux创建软件raid
+image: "api"
 published: 2026-08-22
 description: 用mdadm创建Linux软件RAID,覆盖磁盘分区、RAID5创建、格式化、自动挂载与故障盘替换。
 category: 磁盘配置

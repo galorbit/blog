@@ -1,5 +1,6 @@
 ---
 title: 手动安装docker-buildx
+image: "api"
 published: 2026-08-22
 description: 手动安装docker-buildx插件,下载对应架构的release文件放入cli-plugins目录,重启docker验证版本。
 category: 服务部署

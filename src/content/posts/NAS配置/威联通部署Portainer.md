@@ -1,5 +1,6 @@
 ---
 title: 威联通部署Portainer
+image: "api"
 published: 2026-08-22
 description: 用docker命令在威联通NAS部署Portainer容器管理工具,映射20100端口,通过Web界面管理Docker容器。
 category: NAS配置

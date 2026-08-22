@@ -1,5 +1,6 @@
 ---
 title: 昇腾910B使用vllm-ascend部署qwen3.5
+image: "api"
 published: 2026-08-22
 description: 在两张昇腾910B NPU上使用vllm-ascend容器部署Qwen3.5-35B,直通davinci设备并配置共享内存等参数。
 category: 大模型

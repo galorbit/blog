@@ -1,5 +1,6 @@
 ---
 title: Linux配置cuda环境变量
+image: "api"
 published: 2026-08-22
 description: 为手动安装的CUDA配置PATH和LD_LIBRARY_PATH环境变量,支持当前用户或全局生效。
 category: 环境配置

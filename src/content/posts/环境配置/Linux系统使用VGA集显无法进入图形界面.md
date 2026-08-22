@@ -1,5 +1,6 @@
 ---
 title: Linux系统使用VGA集显无法进入图形界面
+image: "api"
 published: 2026-08-22
 description: 解决Linux装NVIDIA显卡后VGA集显无法进图形界面,grub加nomodeset或注释nvidia配置即可输出。
 category: 环境配置

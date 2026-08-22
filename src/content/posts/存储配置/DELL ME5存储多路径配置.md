@@ -1,5 +1,6 @@
 ---
 title: DELL ME5存储多路径配置
+image: "api"
 published: 2026-08-22
 description: 为DELL PowerVault ME5存储编写multipath.conf多路径配置,启用ALUA优先级与路径选择策略,提升链路冗余。
 category: 存储配置

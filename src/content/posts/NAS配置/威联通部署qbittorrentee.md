@@ -1,5 +1,6 @@
 ---
 title: 威联通部署qbittorrentee
+image: "api"
 published: 2026-08-22
 description: 用docker compose在威联通部署qbittorrentee下载工具,host网络并设置PUID/PGID与Web管理端口。
 category: NAS配置

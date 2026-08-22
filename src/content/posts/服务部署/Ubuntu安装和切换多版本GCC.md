@@ -1,5 +1,6 @@
 ---
 title: Ubuntu安装和切换多版本GCC
+image: "api"
 published: 2026-08-22
 description: Ubuntu安装GCC 9-12等多版本编译器,用update-alternatives配置切换与优先级,满足不同编译需求。
 category: 服务部署

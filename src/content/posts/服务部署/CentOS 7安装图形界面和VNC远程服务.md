@@ -1,5 +1,6 @@
 ---
 title: CentOS 7安装图形界面和VNC远程服务
+image: "api"
 published: 2026-08-22
 description: CentOS 7安装GNOME桌面并部署tigervnc远程服务,通过vncserver@服务模板实现远程桌面登录。
 category: 服务部署

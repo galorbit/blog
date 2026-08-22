@@ -1,5 +1,6 @@
 ---
 title: Linux下查看硬盘SMART信息
+image: "api"
 published: 2026-08-22
 description: 用smartctl查看硬盘SMART信息,解读SSD与HDD关键参数、运行自检并判断磁盘健康状况。
 category: 磁盘配置

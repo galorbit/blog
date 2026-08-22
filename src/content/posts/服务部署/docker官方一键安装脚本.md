@@ -1,5 +1,6 @@
 ---
 title: docker官方一键安装脚本
+image: "api"
 published: 2026-08-22
 description: 使用docker官方get-docker.sh一键脚本安装docker,通过DOWNLOAD_URL指定国内镜像源加速下载。
 category: 服务部署

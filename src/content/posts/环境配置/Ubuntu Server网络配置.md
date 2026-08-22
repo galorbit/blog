@@ -1,5 +1,6 @@
 ---
 title: Ubuntu Server网络配置
+image: "api"
 published: 2026-08-22
 description: 解决Ubuntu Server开机网络等待卡顿与静态IP被重置,并给出netplan多场景与bond配置模板。
 category: 环境配置

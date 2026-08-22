@@ -1,5 +1,6 @@
 ---
 title: Lvm将home容量扩容到根目录
+image: "api"
 published: 2026-08-22
 description: 通过LVM把/home容量在不关机情况下分给根目录,删home卷扩容root后再重建并恢复备份。
 category: 磁盘配置

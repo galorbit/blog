@@ -1,5 +1,6 @@
 ---
 title: 使用Fio测试硬盘IOPS和延时
+image: "api"
 published: 2026-08-22
 description: 用Fio对硬盘做延迟、IOPS、带宽和混合读写测试,解读结果指标并附一键批量测试脚本。
 category: 磁盘配置

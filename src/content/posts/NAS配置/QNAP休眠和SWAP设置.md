@@ -1,5 +1,6 @@
 ---
 title: QNAP休眠和SWAP设置
+image: "api"
 published: 2026-08-22
 description: QNAP NAS硬盘休眠与SWAP交换空间设置,通过mdadm脚本定时断开重连磁盘实现休眠,并配置swap降低功耗。
 category: NAS配置

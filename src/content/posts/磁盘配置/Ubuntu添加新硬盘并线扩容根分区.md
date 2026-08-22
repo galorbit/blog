@@ -1,5 +1,6 @@
 ---
 title: Ubuntu添加新硬盘并线扩容根分区
+image: "api"
 published: 2026-08-22
 description: Ubuntu不停机给LVM根分区扩容:新硬盘分区后加入卷组,扩容逻辑卷并刷新文件系统。
 category: 磁盘配置

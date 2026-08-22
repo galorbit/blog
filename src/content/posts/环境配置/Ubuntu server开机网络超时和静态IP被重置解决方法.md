@@ -1,5 +1,6 @@
 ---
 title: Ubuntu server开机网络超时和静态IP被重置解决方法
+image: "api"
 published: 2026-08-22
 description: 解决Ubuntu server开机卡在网络等待超时,以及静态IP重启后被cloud-init覆盖重置的问题。
 category: 环境配置

@@ -1,5 +1,6 @@
 ---
 title: 威联通部署emby开心版
+image: "api"
 published: 2026-08-22
 description: 用docker compose在威联通部署emby开心版,配置特权模式与集显直通实现硬解,挂载媒体目录与代理。
 category: NAS配置

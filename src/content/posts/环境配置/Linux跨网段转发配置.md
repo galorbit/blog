@@ -1,5 +1,6 @@
 ---
 title: Linux跨网段转发配置
+image: "api"
 published: 2026-08-22
 description: 双网卡Linux服务器开启IP转发与masquerade伪装,让笔记本跨网段访问隔离网络设备。
 category: 环境配置

@@ -1,5 +1,6 @@
 ---
 title: Linux系统工控机多串口仅显示4个解决方法
+image: "api"
 published: 2026-08-22
 description: 工控机Linux只识别4个串口时,通过grub加8250.nr_uarts参数或模块参数提高串口数量上限。
 category: 环境配置
