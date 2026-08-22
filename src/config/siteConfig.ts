@@ -13,7 +13,7 @@ const pages = resolvePageToggles({
 	// 友链页面开关
 	friends: false,
 	// 留言板页面开关，需要配置评论系统
-	guestbook: false,
+	guestbook: true,
 
 	// ── 我的 (My) ──────────────────────────────────
 
@@ -50,17 +50,16 @@ export const siteConfig: SiteConfig = {
 
 	// 站点描述
 	description:
-		"过度懒觉的博客 —— 肥宅看穿了一切。记录 QNAP NAS 折腾、Docker 部署与各种自托管服务的笔记。",
+		"过度懒觉的博客。",
 
 	// 站点关键词
 	keywords: [
 		"过度懒觉",
-		"QNAP",
 		"NAS",
 		"Docker",
-		"自托管",
 		"博客",
 		"技术博客",
+                "大模型本地部署",
 	],
 
 	// 主题色
@@ -89,7 +88,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/favicon-light-32.png",
 			// 可选，指定主题 'light' | 'dark'
 			// theme: "light",
 			// 可选，图标大小
@@ -110,8 +109,8 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/logo/firefly-light.png",
-			valueDark: "assets/images/logo/firefly-dark.png",
+			value: "assets/images/logo/logo-dog.png",
+			valueDark: "assets/images/logo/logo-dog.png",
 			alt: "🍀",
 		},
 		// 导航栏标题
@@ -261,7 +260,7 @@ export const siteConfig: SiteConfig = {
 		categoryOrder: ["anime", "book", "music", "game"],
 		// 控制各分类的启用状态（true/false），未指定的分类默认启用
 		// categories: {
-		// 	game: false, // 禁用游戏分类显示
+		//	game: false, // 禁用游戏分类显示
 		// },
 	},
 

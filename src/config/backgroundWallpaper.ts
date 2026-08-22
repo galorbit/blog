@@ -79,9 +79,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 主页横幅副标题
 			subtitle: [
 				"肥宅看穿了一切",
-				"QNAP NAS 折腾记录",
-				"Docker 部署 · 自托管服务",
-				"硬盘休眠 · 反向代理 · 下载器",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",

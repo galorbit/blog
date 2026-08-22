@@ -33,6 +33,9 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// 留言板(跟随页面开关自动显示/隐藏)
+	links.push(LinkPresets.Guestbook);
+
 	// 关于页面
 	links.push(LinkPresets.About);
 
