@@ -32,3 +32,11 @@ Use Conventional Commits, matching the current history: `feat: ...`, `fix: ...`,
 ## Security & Configuration Tips
 
 Do not commit secrets, tokens, or service keys in config files. Keep deployment-specific settings in the target platform environment, and review generated files such as `dist`, `src/constants/lqips.json`, and `src/constants/icons.ts` before committing them.
+
+## 推送与部署规范(用户约定)
+
+- 远程: `github` = SSH, `origin` = Gitea https+token
+- 笔记仓库(`greetingsyi/markdown-notes`)只推 Gitea(私有),不上 GitHub
+- **博客仓库(公开)推送仅当用户明确说"推送博客"时才执行**: `git push github main && git -c http.sslVerify=false push origin main`
+- 构建: 博客目录 `rm -rf node_modules/.astro .astro dist && pnpm build`
+- 新增成品从笔记流水线 `03-final/` 复制到 `src/content/posts/`
