@@ -30,11 +30,12 @@ export const coverImageConfig: CoverImageConfig = {
 	randomCoverImage: {
 		// 随机封面图功能开关
 		enable: true,
-		// 封面图API列表
+		// 封面图API列表(按顺序尝试,失败自动换下一个)
 		apis: [
-			"https://t.alcy.cc/pc",
-			"https://www.dmoe.cc/random.php",
-			"https://uapis.cn/api/v1/random/image?category=acg&type=pc",
+			// 插画风风景(无角色,国内快)
+			"https://t.alcy.cc/fj",
+			// 真实摄影图(Unsplash 图库,国外源偶尔慢)
+			"https://picsum.photos/1920/1080",
 		],
 	},
 };
