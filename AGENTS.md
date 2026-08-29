@@ -41,10 +41,12 @@ Do not commit secrets, tokens, or service keys in config files. Keep deployment-
 - 构建: 博客目录 `rm -rf node_modules/.astro .astro dist && pnpm build`(pnpm 11 需 `CI=true pnpm build`)
 - 内容源: 笔记流水线 `02-final/`(Gitea markdown-notes 仓库本地克隆 `/opt/Project/notes-pipeline/repo/`)
 
-## 笔记上传(用户说"推送笔记到博客"时)
+## 笔记上传(用户说"检查新笔记并推送到博客"时,笔记流水线模式 B 的第二步)
+
+前置:笔记流水线已先完成 02-final 处理并推 Gitea(模式 A),本流程只做"同步到博客"这一步。
 
 1. `cd /opt/Project/notes-pipeline/repo && git pull origin main` 拉最新
-2. 检查 `02-final/` 的 frontmatter(必须有 `title/category/tags/published`;`slug`/`description` 可选但建议有)
+2. 检查 `02-final/` 的 frontmatter(必须有 `title/category/tags/published`;`slug`/`description` 建议有)
    - 用 python 批量校验+采样;若有 `date:` 需转成 `published:`(博客 schema 只认 published)
 3. `rm -rf src/content/posts/* && cp -r /opt/Project/notes-pipeline/repo/02-final/* src/content/posts/`(分类子目录照搬)
 4. 构建验证: `CI=true pnpm build`,确认 `dist/posts/` 下文章数与 02-final 一致,URL 为英文 slug(`/posts/<slug>/`)
