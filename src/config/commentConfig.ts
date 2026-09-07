@@ -54,7 +54,7 @@ export const commentConfig: CommentConfig = {
 	//giscus评论系统配置
 	giscus: {
 		// 设置 Giscus 评论系统仓库
-		repo: "greetingsyi/blog",
+		repo: "galorbit/blog",
 		// 设置 Giscus 评论系统仓库ID
 		repoId: "R_kgDOTtZi7A",
 		// 设置 Giscus 评论系统分类

@@ -36,7 +36,7 @@ Do not commit secrets, tokens, or service keys in config files. Keep deployment-
 ## 推送与部署规范(用户约定)
 
 - 远程: `github` = SSH, `origin` = Gitea https+token
-- 笔记仓库(`greetingsyi/markdown-notes`)只推 Gitea(私有),不上 GitHub
+- 笔记仓库(`galorbit/markdown-notes`)只推 Gitea(私有),不上 GitHub
 - **博客仓库(公开)推送仅当用户明确说"推送博客"时才执行**: `git push github main && git -c http.sslVerify=false push origin main`
 - 构建: 博客目录 `rm -rf node_modules/.astro .astro dist && pnpm build`(pnpm 11 需 `CI=true pnpm build`)
 - 内容源: 笔记流水线 `02-final/`(Gitea markdown-notes 仓库本地克隆 `/opt/Project/notes-pipeline/repo/`)
